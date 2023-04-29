@@ -1,9 +1,9 @@
 # abstract-go-func
-## Lib for abstract functions and methods in go
 
-## Try this out!
+### Lib for abstract functions and methods in go
+### Try this out!
 
-Example 1: Basic function with some parameters
+##Example 1: Basic function with some parameters
 
 ```go
 package main
