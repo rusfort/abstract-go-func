@@ -3,7 +3,7 @@
 ### Lib for abstract functions and methods in go
 ### Try this out!
 
-##Example 1: Basic function with some parameters
+## Example 1: Basic function with some parameters
 
 ```go
 package main
@@ -43,7 +43,7 @@ func SomeFunc(a int, b string) (interface{}, error) {
 
 ```
 
-##Example 2: Method of a given class with context and some parameters
+## Example 2: Method of a given class with context and some parameters
 
 ```go
 package main
