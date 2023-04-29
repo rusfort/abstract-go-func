@@ -9,7 +9,7 @@ func main() {
 
 	// create your new abstract function
 	f1 := functions.NewAbstractFunc(func(params ...interface{}) (interface{}, error) {
-		return SomeFunc(params[0].(int), params[1].(string))
+		return SomeFunc(params[0].(int), params[1].(string)) // NOTE: if you feel that someone can make a mess with data types, assert it before return!
 	}, 12, "abc") // set default params if needed
 
 	// create a function map for easy key access
